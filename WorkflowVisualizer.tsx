@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-#import { CASE_FLOW_STEPS } from '../constants';
+import { CASE_FLOW_STEPS } from './constants';
 
 const WorkflowVisualizer: React.FC = () => {
   const [activeStep, setActiveStep] = useState<number>(1);
