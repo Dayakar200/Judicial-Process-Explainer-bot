@@ -1,7 +1,7 @@
 
 import React from 'react';
-import ChatInterface from './components/ChatInterface';
-import WorkflowVisualizer from './components/WorkflowVisualizer';
+import ChatInterface from './ChatInterface';
+import WorkflowVisualizer from './WorkflowVisualizer';
 
 const App: React.FC = () => {
   const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
