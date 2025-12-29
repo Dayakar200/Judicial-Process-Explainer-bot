@@ -1,6 +1,6 @@
 
 import React, { useState, useRef, useEffect } from 'react';
-#import { Message, MessageRole } from '../types';
+
 import { getGeminiResponse } from './geminiService';
 
 const ChatInterface: React.FC = () => {
